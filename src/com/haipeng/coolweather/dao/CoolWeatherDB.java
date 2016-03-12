@@ -70,7 +70,7 @@ public class CoolWeatherDB {
 		return list;
 	}
 
-	public void saveCities(City city) {
+	public void saveCity(City city) {
 		if (city != null) {
 
 			ContentValues values = new ContentValues();
@@ -104,7 +104,7 @@ public class CoolWeatherDB {
 		return list;
 	}
 
-	public void saveConties(County county) {
+	public void saveCounty(County county) {
 		if (county != null) {
 
 			ContentValues values = new ContentValues();
